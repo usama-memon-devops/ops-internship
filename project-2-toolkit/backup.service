@@ -1,0 +1,6 @@
+[Unit]
+Description=Project Files Backup
+
+[Service]
+Type=oneshot
+ExecStart=/opt/scripts/backup.sh
