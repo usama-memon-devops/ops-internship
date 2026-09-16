@@ -1,0 +1,9 @@
+--- /etc/ssh/sshd_config
++++ /etc/ssh/sshd_config
+@@
+-Port 22
++Port 2222
++PermitRootLogin no
++PasswordAuthentication no
++PubkeyAuthentication yes
++AllowGroups sshusers
